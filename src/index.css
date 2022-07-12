@@ -12,18 +12,6 @@ body {
   background-image: url("texture.png");
 }
 
-.shadow {
-  box-shadow: 10px 10px 0px -3px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0, 0.75);
-}
-.omke {
-  margin-right: auto;
-}
-/* nav:first-child {
-  margin-right: auto;
-} */
-
 .nav-item {
   @apply px-14 py-6 cursor-pointer font-[Montserrat] border-l-2 border-black h-full;
 }
