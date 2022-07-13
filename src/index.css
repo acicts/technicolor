@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "NeonLedLight";
-  src: url("./NEONLEDLight.otf");
+  src: url("assets/NEONLEDLight.otf");
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("texture.png");
+  background-image: url("assets/texture.png");
 }
 
 .nav-item {

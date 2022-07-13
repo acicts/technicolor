@@ -1,9 +1,9 @@
-import Computer from "../computer.png";
+import Computer from "../assets/computer.png";
 
 const About = () => (
-  <div className="flex lg:flex-row py-20 justify-around mx-20 sm:flex-col  sm:h-full">
-    <div className="flex flex-col lg:w-[45%] pl-2 sm:w-full">
-      <span className="text-[5rem] font-bold font-[Montserrat] leading-[5rem] mb-10">
+  <div className="flex lg:flex-row py-10 lg:py-20 justify-around mx-5 lg:mx-20 flex-col-reverse  sm:h-full">
+    <div className="pl-2 flex flex-col w-full lg:w-[45%]">
+      <span className="text-[3.3rem] lg:text-[5rem] font-bold font-[Montserrat] leading-[4rem] lg:leading-[5rem] mb-10">
         Intraschool <span className="font-[NeonLedLight]">Graphic Design</span>{" "}
         Competition
       </span>
