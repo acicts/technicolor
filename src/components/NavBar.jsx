@@ -8,23 +8,28 @@ const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 80);
+      setScroll(window.scrollY > 1);
     });
   }, []);
 
   const popUpNav = () => {
     setNavbar(!navbar);
   };
+
   return (
     <nav
       className={
         (scroll ? "bg-[#e1dcd8] " : "") +
-        (navbar ? "h-80 border-b-4" : "h-20 border-b-0") +
-        "sticky top-0 z-50 flex flex-col lg:flex-row transition-[height] border-4 border-black first:mr-auto  lg:h-20"
+        (navbar ? "h-80" : "h-20 ") +
+        " sticky top-0 z-50 flex flex-col lg:flex-row transition-[height] border-4 border-black   lg:h-20"
       }
     >
-      <NavItem className="flex mr-auto w-full px-5 lg:px-14  lg:h-20  align-middle justify-between">
-        <img className="lg:px-16 my-5 cursor-pointer h-10" src={Logo} alt="" />
+      <NavItem className="flex w-full lg:w-96 border-r-0 xl:border-r-4 border-black  mr-auto px-5 lg:px-14 align-middle  lg:h-[4.7rem] justify-between">
+        <img
+          className="lg:px-16 my-5 cursor-pointer align-middle h-10"
+          src={Logo}
+          alt=""
+        />
         <img
           src={Bars}
           alt="3bars"
