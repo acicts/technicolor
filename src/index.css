@@ -31,6 +31,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("assets/texture.png");
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .nav-item {
   @apply px-14 py-6 cursor-pointer font-[Montserrat] border-l-2 border-black h-full;
