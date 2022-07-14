@@ -24,11 +24,14 @@ const NavBar = () => {
         " sticky top-0 z-50 flex flex-col lg:flex-row transition-[height] border-4 border-black   lg:h-20"
       }
     >
-      <NavItem className="flex w-full lg:w-96 border-r-0 xl:border-r-4 border-black  mr-auto px-5 lg:px-14 align-middle  lg:h-[4.7rem] justify-between">
+      <NavItem
+        navID="#top"
+        className="flex w-full lg:w-96 border-r-0 xl:border-r-4 border-black  mr-auto px-5 lg:px-14 align-middle  lg:h-[4.7rem] justify-between"
+      >
         <img
           className="lg:px-16 my-5 cursor-pointer align-middle h-10"
           src={Logo}
-          alt=""
+          alt="technicolor logo"
         />
         <img
           src={Bars}
@@ -38,8 +41,8 @@ const NavBar = () => {
         />
       </NavItem>
       <NavItem content="About" nav={navbar} />
-      <NavItem content="Catagories" nav={navbar} />
-      <NavItem content="Contact Us" nav={navbar} />
+      <NavItem content="Categories" nav={navbar} />
+      <NavItem content="Register" nav={navbar} />
     </nav>
   );
 };

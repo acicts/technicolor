@@ -1,5 +1,6 @@
-const NavItem = ({ children, className, content, nav }) => (
-  <div
+const NavItem = ({ children, className, content, navID, nav }) => (
+  <a
+    href={content ? `#${content.toLowerCase()}` : navID}
     className={
       className ||
       (nav ? "block" : "hidden") +
@@ -7,7 +8,7 @@ const NavItem = ({ children, className, content, nav }) => (
     }
   >
     {content ? <span>{content}</span> : children}
-  </div>
+  </a>
 );
 
 export default NavItem;

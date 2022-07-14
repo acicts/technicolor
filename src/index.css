@@ -3,10 +3,25 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Praktika";
+  src: url("assets/PraktikaRounded-Bold.ttf");
+}
+@font-face {
   font-family: "NeonLedLight";
   src: url("assets/NEONLEDLight.otf");
 }
 
+.section-title {
+  @apply underline underline-offset-[20px] text-center font-[Praktika] inline-block w-full text-[3.5rem] lg:text-[5rem] mb-20;
+}
+
+.btn {
+  @apply font-[Montserrat] shadow-lg border-2 border-black rounded-sm text-3xl cursor-pointer;
+}
+
+.form {
+  background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s115-td-30477_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b33ff5640551a256b91c3b0286bf541d");
+}
 body {
   margin: 5px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
