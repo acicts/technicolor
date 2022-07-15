@@ -1,50 +1,49 @@
 import { FormProvider, useForm, useFormContext } from "react-hook-form";
 
-const FormComponent = ({ name, label, optional, pattern }) => {
+const FormComponent = ({ label, optional, pattern, ...inputAttrs }) => {
   const { register } = useFormContext();
   return (
     <div className="flex flex-col my-5">
-      <label className="text-xl font-[Poppins] text-gray-700 shadow-md">
+      <label className="text-xl font-[Praktika] text-gray-700 shadow-md">
         {label}
         {optional ? "" : <span className="text-red-500"> *</span>}
       </label>
 
       <input
-        {...register(name, { required: !optional, pattern: pattern })}
-        className="rounded-md border-gray-400 shadow-md h-10 border px-3 w-56 lg:w-auto outline-none focus:bg-gray-100"
+        {...inputAttrs}
+        {...register(inputAttrs.name, {
+          required: !optional,
+          pattern: pattern,
+        })}
+        className="rounded-md border-gray-400 shadow-md h-10 border px-3 w-full md:w-auto max-w-lg min-w-sm outline-none focus:bg-gray-100"
       />
     </div>
   );
 };
 
 const Register = () => {
-  const { handleSubmit, errors, ...methods } = useForm();
+  const { handleSubmit, ...methods } = useForm();
   return (
-    <FormProvider {...{ handleSubmit, errors, ...methods }}>
+    <FormProvider {...{ handleSubmit, ...methods }}>
       <form
         action=""
-        onSubmit={handleSubmit((data) => {
-          let form = document.getElementById("register");
-          form.submit(data);
-        })}
+        onSubmit={handleSubmit((data) => console.log(data))}
         method="post"
+        data-nelify="true"
         id="register"
         className="mt-40 lg:w-[50rem] mx-auto "
       >
         <span className="section-title">Register Now</span>
-        <div className="w-[95%] lg:w-full h-[50rem] lg:h-[55rem]  shadow-lg border-4 border-black px-10 lg:px-40 pt-5 form rounded-md">
+        <div className="w-[95%] max-w-[50rem] h-[50rem] lg:h-[55rem]  shadow-lg border-4 border-black px-10 lg:px-40 pt-5 form rounded-md">
           <FormComponent name="name" label="Full Name" />
           <FormComponent
             name="class"
             label="Class"
             pattern={/([6-9]|1[0-3])-(\d|1[01])/g}
           />
+          <FormComponent type="email" name="email" label="Email" />
           <FormComponent
-            name="email"
-            label="Email"
-            pattern={/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/g}
-          />
-          <FormComponent
+            type="number"
             name="admission"
             label="Admission Number"
             pattern={/\d{5}/g}
@@ -56,7 +55,7 @@ const Register = () => {
             pattern={/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/g}
           />
           <FormComponent
-            type="tell"
+            type="tel"
             name="whatsapp"
             label="Whatsapp Number"
             pattern={/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/g}
