@@ -4,7 +4,15 @@
 
 @font-face {
   font-family: "Praktika";
-  src: url("assets/PraktikaRounded-Bold.ttf");
+  src: url("assets/PraktikaRounded-MediumExt.ttf");
+}
+@font-face {
+  font-family: "Praktika-Bold";
+  src: url("assets/PraktikaRounded-BoldExt.ttf");
+}
+@font-face {
+  font-family: "Praktika-ExtraBold";
+  src: url("assets/PraktikaRounded-ExtraBoldExt.ttf");
 }
 @font-face {
   font-family: "NeonLedLight";
@@ -12,11 +20,11 @@
 }
 
 .section-title {
-  @apply underline underline-offset-[20px] text-center font-[Praktika] inline-block w-full text-[3.5rem] lg:text-[5rem] mb-20;
+  @apply underline underline-offset-[20px] text-center font-[Praktika-Bold] inline-block w-full text-[3rem] lg:text-[4rem] mb-20;
 }
 
 .btn {
-  @apply font-[Montserrat] shadow-lg border-2 border-black rounded-sm text-3xl cursor-pointer;
+  @apply font-[Praktika] shadow-lg border-2 border-black rounded-sm text-3xl cursor-pointer;
 }
 
 .form {
@@ -36,7 +44,7 @@ html {
 }
 
 .nav-item {
-  @apply px-14 py-6 cursor-pointer font-[Montserrat] border-l-2 border-black h-full;
+  @apply px-14 py-6 cursor-pointer font-[Praktika] border-l-2 border-black h-full;
 }
 
 code {
