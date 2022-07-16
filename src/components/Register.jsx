@@ -29,7 +29,7 @@ const Register = () => {
         action=""
         onSubmit={handleSubmit((data) => console.log(data))}
         method="post"
-        data-nelify="true"
+        data-netlify="true"
         id="register"
         className="mt-40 lg:w-[50rem] mx-auto "
       >
