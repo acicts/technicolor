@@ -29,19 +29,8 @@ const Register = () => {
         method="post"
         id="register"
         className="mt-40 lg:w-[50rem] mx-auto"
-        data-netlify="true"
-        onSubmit={handleSubmit((e) => {
-          e.preventDefault();
-          let myForm = document.getElementById("register");
-          let formData = new FormData(myForm);
-          fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData).toString(),
-          })
-            .then(() => console.log("Form successfully submitted"))
-            .catch((error) => alert(error));
-        })}
+        onSubmit={handleSubmit()}
+        netlify
       >
         <span className="section-title">Register Now</span>
         <div className="w-[95%] max-w-[50rem] h-[50rem] lg:h-[55rem]  shadow-lg border-4 border-black px-10 lg:px-40 pt-5 form rounded-md">
