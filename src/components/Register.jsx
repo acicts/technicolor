@@ -28,10 +28,11 @@ const Register = () => {
       <form
         method="post"
         id="register"
+        name="register"
         className="mt-40 lg:w-[50rem] mx-auto"
         onSubmit={handleSubmit()}
-        netlify
       >
+        <input type="hidden" name="form-name" value="register" />
         <span className="section-title">Register Now</span>
         <div className="w-[95%] max-w-[50rem] h-[50rem] lg:h-[55rem]  shadow-lg border-4 border-black px-10 lg:px-40 pt-5 form rounded-md">
           <FormComponent name="name" label="Full Name" />
@@ -43,7 +44,7 @@ const Register = () => {
           <FormComponent type="email" name="email" label="Email" />
           <FormComponent
             type="number"
-            name="admission"
+            name="YPqjbf"
             label="Admission Number"
             pattern={/\d{5}/g}
           />

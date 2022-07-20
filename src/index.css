@@ -19,6 +19,20 @@
   src: url("assets/NEONLEDLight.otf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("assets/texture.png");
+}
+
 .section-title {
   @apply underline underline-offset-[20px] text-center font-[Praktika-Bold] inline-block w-full text-[3rem] lg:text-[4rem] mb-20;
 }
@@ -30,24 +44,9 @@
 .form {
   background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s115-td-30477_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b33ff5640551a256b91c3b0286bf541d");
 }
-body {
-  margin: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url("assets/texture.png");
-}
-html {
-  scroll-behavior: smooth;
-}
-
 .nav-item {
   @apply px-14 py-6 cursor-pointer font-[Praktika] border-l-2 border-black h-full;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.oc-member {
+  @apply font-[Praktika] text-2xl ;
 }

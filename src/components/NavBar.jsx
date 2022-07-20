@@ -37,7 +37,7 @@ const NavBar = () => {
           src={Bars}
           alt="3bars"
           className="w-8 lg:hidden"
-          onClick={popUpNav}
+          onClick={() => setTimeout(() => setNavbar(!navbar), 150)}
         />
       </NavItem>
       <NavItem content="About" nav={navbar} />

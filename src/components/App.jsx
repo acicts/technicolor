@@ -1,7 +1,8 @@
 import About from "./About";
-import NavBar from "./NavBar";
-import Register from "./Register";
 import Categories from "./Categories";
+import NavBar from "./NavBar";
+import OC from "./OC";
+import Register from "./Register";
 
 const App = () => (
   <div id="#top">
@@ -10,6 +11,19 @@ const App = () => (
       <About />
       <Categories />
       <Register />
+      {/* <iframe
+        title="form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSf6gNxy5QNzmf9Zw1Q86mw0xAUL7WtL7VlNKcB1eJbgNwj1dg/viewform?embedded=true"
+        width="700"
+        height="520"
+        lang="en"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Loading…
+      </iframe> */}
+      <OC />
     </main>
   </div>
 );
