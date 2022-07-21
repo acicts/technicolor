@@ -6,7 +6,7 @@ const About = () => (
     id="about"
   >
     <div className="pl-2 flex flex-col w-full lg:w-[50%]">
-      <span className="text-[2.8rem] md:text-[4rem] lg:text-[4.5rem]  font-[Praktika-Bold] leading-[4rem] lg:leading-[5rem] mb-10 mx-auto lg:mx-0 text-center lg:text-left">
+      <span className="text-[2.8rem] md:text-[4rem] lg:text-[4.5rem]  font-[Praktika-Bold] leading-[3rem] md:leading-[4rem] lg:leading-[5rem] mb-10 mx-auto lg:mx-0 text-center lg:text-left">
         Intraschool
         <br />
         <span className="font-[Praktika-ExtraBold]">Graphic Design</span>
