@@ -12,10 +12,6 @@ const NavBar = () => {
     });
   }, []);
 
-  const popUpNav = () => {
-    setNavbar(!navbar);
-  };
-
   return (
     <nav
       className={
