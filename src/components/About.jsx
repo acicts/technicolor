@@ -19,7 +19,15 @@ const About = () => (
       <span className="font-bold mx-auto lg:mx-0 font-[Montserrat]">
         - Walt Disney
       </span>
-      <button className="btn mx-auto lg:mx-0 py-4 mt-20 w-64">Register</button>
+      <a
+        href="https://forms.gle/tbcs96MdmhnvBGo29"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="btn mx-auto lg:mx-0 py-4 mt-20 w-64 transition-[.2s]">
+          Register
+        </button>
+      </a>
     </div>
     <div className="lg:w-[45%] sm:w-full sm:mt-20 lg:m-0">
       <img

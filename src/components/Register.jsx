@@ -31,6 +31,7 @@ const Register = () => {
         name="register"
         className="mt-40 lg:w-[50rem] mx-auto"
         onSubmit={handleSubmit()}
+        hidden
       >
         <input type="hidden" name="form-name" value="register" />
         <span className="section-title">Register Now</span>

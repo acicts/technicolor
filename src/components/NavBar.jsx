@@ -19,6 +19,11 @@ const NavBar = () => {
         (navbar ? "h-80" : "h-20 ") +
         " sticky top-0 z-50 flex flex-col lg:flex-row transition-[height] border-4 border-black   lg:h-20"
       }
+      onClick={() => {
+        if (navbar) {
+          setNavbar(false);
+        }
+      }}
     >
       <NavItem
         navID="#top"

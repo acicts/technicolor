@@ -50,3 +50,7 @@ body {
 .oc-member {
   @apply font-[Praktika] text-2xl text-center;
 }
+
+.btn:active {
+  @apply shadow-none translate-x-[10px] translate-y-[10px] scale-95;
+}
