@@ -1,6 +1,6 @@
 const NavItem = ({ children, className, content, navID, nav }) => (
   <a
-    href={content ? `#${content.toLowerCase()}` : navID}
+    href={navID ? navID : `#${content.toLowerCase()}`}
     className={
       className ||
       (nav ? "block" : "hidden") +

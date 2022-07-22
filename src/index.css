@@ -47,8 +47,8 @@ body {
 .nav-item {
   @apply px-14 py-6 cursor-pointer font-[Praktika] border-l-2 border-black h-full;
 }
-.oc-member {
-  @apply font-[Praktika] text-2xl text-center;
+.contact {
+  @apply btn w-96 h-20;
 }
 
 .btn:active {

@@ -43,7 +43,7 @@ const NavBar = () => {
       </NavItem>
       <NavItem content="About" nav={navbar} />
       <NavItem content="Categories" nav={navbar} />
-      <NavItem content="Register" nav={navbar} />
+      <NavItem content="Contact us" nav={navbar} navID="#contact" />
     </nav>
   );
 };

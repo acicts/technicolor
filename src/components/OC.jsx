@@ -1,15 +1,23 @@
-const OC = () => (
-  <div className="mt-20 w-3/4 min-w-[300px] mx-auto">
-    <span className="section-title">Organizing Commitee</span>
+const Contact = () => (
+  <div className="mt-20 w-3/4 min-w-[320px] mx-auto">
+    <span className="section-title" id="contact">
+      Contact US
+    </span>
     <div className="flex flex-wrap justify-evenly gap-5 gap-x-10">
-      <span className="oc-member">Manula Thejan</span>
-      <span className="oc-member">Chamindu Jayanath</span>
-      <span className="oc-member">Anupama Dissanayake</span>
-      <span className="oc-member">Pasindu Dushan</span>
-      <span className="oc-member">Pasindu Yahampath</span>
-      <span className="oc-member">Thisuka jayarathne</span>
+      <button
+        className="contact"
+        onClick={() => window.open("https://wa.me/94763591102")}
+      >
+        Thimuth Mandila
+      </button>
+      <button
+        className="contact"
+        onClick={() => window.open("https://wa.me/94773666043")}
+      >
+        Thisuka Jayarathne
+      </button>
     </div>
   </div>
 );
 
-export default OC;
+export default Contact;
