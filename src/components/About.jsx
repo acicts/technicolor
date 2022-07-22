@@ -19,15 +19,12 @@ const About = () => (
       <span className="font-bold mx-auto lg:mx-0 font-[Montserrat]">
         - Walt Disney
       </span>
-      <a
-        href="https://forms.gle/tbcs96MdmhnvBGo29"
-        target="_blank"
-        rel="noreferrer"
+      <button
+        className="btn mx-auto lg:mx-0 py-4 mt-20 w-64 transition-[.4s]"
+        onClick={() => window.open("https://forms.gle/tbcs96MdmhnvBGo29")}
       >
-        <button className="btn mx-auto lg:mx-0 py-4 mt-20 w-64 transition-[.2s]">
-          Register
-        </button>
-      </a>
+        Register
+      </button>
     </div>
     <div className="lg:w-[45%] sm:w-full sm:mt-20 lg:m-0">
       <img
