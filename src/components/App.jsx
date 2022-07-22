@@ -12,7 +12,7 @@ const App = () => (
       <Categories />
       <Register />
       <Contact />
-      <footer className="text-center mt-20 text-xl">acicts@2022</footer>
+      <footer className="text-center mt-20 text-xl">ACICTS©2022</footer>
     </main>
   </div>
 );
