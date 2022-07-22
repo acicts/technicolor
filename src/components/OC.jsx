@@ -6,8 +6,8 @@ const OC = () => (
       <span className="oc-member">Chamindu Jayanath</span>
       <span className="oc-member">Anupama Dissanayake</span>
       <span className="oc-member">Pasindu Dushan</span>
+      <span className="oc-member">Pasindu Yahampath</span>
       <span className="oc-member">Thisuka jayarathne</span>
-      <span className="oc-member">Damithpy</span>
     </div>
   </div>
 );
