@@ -14,10 +14,6 @@
   font-family: "Praktika-ExtraBold";
   src: url("assets/PraktikaRounded-ExtraBoldExt.ttf");
 }
-@font-face {
-  font-family: "NeonLedLight";
-  src: url("assets/NEONLEDLight.otf");
-}
 
 html {
   scroll-behavior: smooth;
@@ -25,9 +21,9 @@ html {
 
 body {
   margin: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Praktika", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("assets/texture.png");
@@ -38,14 +34,11 @@ body {
 }
 
 .btn {
-  @apply font-[Praktika] shadow-lg border-2 border-black rounded-sm text-3xl cursor-pointer;
+  @apply shadow-lg border-2 border-black rounded-sm text-3xl cursor-pointer;
 }
 
-.form {
-  background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s115-td-30477_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b33ff5640551a256b91c3b0286bf541d");
-}
 .nav-item {
-  @apply px-14 py-6 cursor-pointer font-[Praktika] border-l-2 border-black h-full;
+  @apply px-14 py-6 cursor-pointer border-l-2 border-black h-full;
 }
 .contact {
   @apply btn w-96 h-20;

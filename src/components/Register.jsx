@@ -4,7 +4,7 @@ const FormComponent = ({ label, optional, pattern, ...inputAttrs }) => {
   const { register } = useFormContext();
   return (
     <div className="flex flex-col my-5">
-      <label className="text-xl font-[Praktika] text-gray-700 shadow-md">
+      <label className="text-xl  text-gray-700 shadow-md">
         {label}
         {optional ? "" : <span className="text-red-500"> *</span>}
       </label>
@@ -31,7 +31,6 @@ const Register = () => {
         name="register"
         className="mt-40 lg:w-[50rem] mx-auto"
         onSubmit={handleSubmit()}
-        hidden
       >
         <input type="hidden" name="form-name" value="register" />
         <span className="section-title">Register Now</span>
