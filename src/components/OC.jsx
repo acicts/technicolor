@@ -12,9 +12,9 @@ const Contact = () => (
       </button>
       <button
         className="contact"
-        onClick={() => window.open("https://wa.me/94773666043")}
+        onClick={() => window.open("https://wa.me/94756691227")}
       >
-        Thisuka Jayarathne
+        Ovin Perera
       </button>
     </div>
   </div>
