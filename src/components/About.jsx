@@ -27,7 +27,7 @@ const About = () => (
       </button>
       <button
         className="btn mx-auto lg:mx-0 py-4 mt-5 w-11/12 max-w-[500px] transition-[.4s]"
-        onClick={() => window.open("https://drive.google.com/file/d/1Piy4Nde_qvGhvxjjwzAfbBs1oYcg6GYg/view?usp=sharing")}
+        onClick={() => window.open("https://drive.google.com/file/d/1QR2sVpG9k49ByL3VZ3v9NYRf0ScAibqR/view?usp=sharing")}
       >
         Rules and regulations
       </button>
