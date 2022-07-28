@@ -31,6 +31,12 @@ const About = () => (
       >
         Rules and regulations
       </button>
+      <button
+        className="btn mx-auto lg:mx-0 py-4 mt-5 w-64 max-w-[500px] transition-[.4s]"
+        onClick={() => window.open("https://drive.google.com/file/d/1wKUq7WTfYxyaxBCEKN3wf0ZNTOG1HDWD/view?usp=sharing")}
+      >
+        Themes
+      </button>
     </div>
     <div className="lg:w-[45%] sm:w-full sm:mt-20 lg:m-0">
       <img
