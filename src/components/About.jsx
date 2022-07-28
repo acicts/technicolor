@@ -32,7 +32,7 @@ const About = () => (
         Rules and regulations
       </button>
       <button
-        className="btn mx-auto lg:mx-0 py-4 mt-5 w-64 max-w-[500px] transition-[.4s]"
+        className="btn mx-auto lg:mx-0 py-4 mt-5 w-60 transition-[.4s]"
         onClick={() => window.open("https://drive.google.com/file/d/1wKUq7WTfYxyaxBCEKN3wf0ZNTOG1HDWD/view?usp=sharing")}
       >
         Themes
