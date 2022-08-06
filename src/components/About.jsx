@@ -37,6 +37,12 @@ const About = () => (
       >
         Themes
       </button>
+      <button
+        className="btn mx-auto lg:mx-0 py-4 mt-5 w-60 transition-[.4s]"
+        onClick={() => window.open("https://forms.gle/dkD3qdiLFKR3kr9LA")}
+      >
+        Submit Design
+      </button>
     </div>
     <div className="lg:w-[45%] sm:w-full sm:mt-20 lg:m-0">
       <img
