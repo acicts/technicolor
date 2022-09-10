@@ -33,6 +33,10 @@ body {
   @apply underline underline-offset-[20px] text-center font-[Praktika-Bold] inline-block w-full text-[3rem] lg:text-[4rem] mb-20;
 }
 
+.section-subtitle {
+  @apply underline underline-offset-[10px] text-center font-[Praktika-Bold] inline-block w-full text-[1.5rem] lg:text-[2rem] mb-10;
+}
+
 .btn {
   @apply shadow-lg border-2 border-black rounded-sm text-3xl cursor-pointer;
 }
@@ -41,7 +45,7 @@ body {
   @apply px-14 py-6 cursor-pointer border-l-2 border-black h-full;
 }
 .contact {
-  @apply btn w-96 h-20;
+  @apply btn w-96 h-28 text-center;
 }
 
 .btn:active {
