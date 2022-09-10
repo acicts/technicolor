@@ -1,9 +1,9 @@
 const Winners = () => (
     <div className="mt-20 w-3/4 min-w-[320px] mx-auto">
-      <span className="section-title" id="contact">
+      <span className="section-title" id="winners">
         Winners
       </span>
-      <span className="section-subtitle" id="contact">
+      <span className="section-subtitle" id="winners">
         Poster Design
       </span>
       <div className="flex flex-wrap justify-evenly gap-5 gap-x-10">
