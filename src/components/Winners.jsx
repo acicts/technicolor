@@ -27,7 +27,7 @@ const Winners = () => (
         </div>
       </div>
 
-      <span className="section-subtitle mt-20" id="contact">
+      <span className="section-subtitle mt-20" id="winners">
       3D Design
       </span>
       <div className="flex flex-wrap justify-evenly gap-5 gap-x-10">
@@ -51,7 +51,7 @@ const Winners = () => (
         </div>
       </div>
 
-      <span className="section-subtitle mt-20" id="contact">
+      <span className="section-subtitle mt-20" id="winners">
       Video Editing
       </span>
       <div className="flex flex-wrap justify-evenly gap-5 gap-x-10">
