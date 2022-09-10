@@ -19,30 +19,19 @@ const About = () => (
       <span className="font-bold mx-auto lg:mx-0 font-[Montserrat]">
         - Walt Disney
       </span>
-      <button
-        className="btn mx-auto lg:mx-0 py-4 mt-20 w-64 transition-[.4s]"
-        onClick={() => window.open("https://forms.gle/tbcs96MdmhnvBGo29")}
-      >
-        Register
-      </button>
+ 
       <button
         className="btn mx-auto lg:mx-0 py-4 mt-5 w-11/12 max-w-[500px] transition-[.4s]"
-        onClick={() => window.open("https://drive.google.com/file/d/1QR2sVpG9k49ByL3VZ3v9NYRf0ScAibqR/view?usp=sharing")}
       >
-        Rules and regulations
+        Winners have been announced 
       </button>
-      <button
+      {/* <button
         className="btn mx-auto lg:mx-0 py-4 mt-5 w-60 transition-[.4s]"
         onClick={() => window.open("https://drive.google.com/file/d/1wKUq7WTfYxyaxBCEKN3wf0ZNTOG1HDWD/view?usp=sharing")}
       >
         Themes
-      </button>
-      <button
-        className="btn mx-auto lg:mx-0 py-4 mt-5 w-60 transition-[.4s]"
-        onClick={() => window.open("https://forms.gle/dkD3qdiLFKR3kr9LA")}
-      >
-        Submit Design
-      </button>
+      </button> */}
+     
     </div>
     <div className="lg:w-[45%] sm:w-full sm:mt-20 lg:m-0">
       <img
@@ -55,3 +44,4 @@ const About = () => (
 );
 
 export default About;
+ 
