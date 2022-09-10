@@ -11,7 +11,7 @@ const App = () => (
       <About />
       <Categories />
       <Winners />
-      <Contact />
+ 
       <footer className="text-center mt-20 text-xl">ACICTS©2022</footer>
     </main>
   </div>
