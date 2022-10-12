@@ -14,6 +14,8 @@ https://technicolor.acicts.lk
 - React
 - TailWind
 
+For more details, contact the developer community.
+
 <p align="center">
 <img width="50" alt="download (1)" src="https://user-images.githubusercontent.com/115484634/195356885-ba1caccf-e862-4499-a8d3-1dea319fb24f.png"> ACICTS©2022
 </p>
