@@ -6,15 +6,15 @@ const Contact = () => (
     <div className="flex flex-wrap justify-evenly gap-5 gap-x-10">
       <button
         className="contact"
-        onClick={() => window.open("https://wa.me/94763591102")}
+        onClick={() => window.open("https://wa.me/94707284384")}
       >
-        Thimuth Mandila
+        Nethula Peiris
       </button>
       <button
         className="contact"
-        onClick={() => window.open("https://wa.me/94756691227")}
+        onClick={() => window.open("https://wa.me/94757688424")}
       >
-        Ovin Perera
+        Parinda Pathirana
       </button>
     </div>
   </div>

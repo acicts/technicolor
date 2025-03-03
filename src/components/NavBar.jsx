@@ -43,7 +43,7 @@ const NavBar = () => {
       </NavItem>
       <NavItem content="About" nav={navbar} />
       <NavItem content="Categories" nav={navbar} />
-      <NavItem content="Winners" nav={navbar} />
+      <NavItem content="RNR" nav={navbar} navID="#rnr" />
       <NavItem content="Contact us" nav={navbar} navID="#contact" />
     </nav>
   );

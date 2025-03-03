@@ -7,41 +7,29 @@ const About = () => (
   >
     <div className="pl-2 flex flex-col w-full lg:w-[50%]">
       <span className="text-[2.8rem] md:text-[4rem] lg:text-[4.5rem]  font-[Praktika-Bold] leading-[3rem] md:leading-[4rem] lg:leading-[5rem] mb-10 mx-auto lg:mx-0 text-center lg:text-left">
-        Intraschool
+        Intra-School
         <br />
         <span className="font-[Praktika-ExtraBold]">Graphic Design</span>
         <br />
         Competition
       </span>
-      <span className="italic mx-auto lg:mx-0 font-[Poppins]">
-        "The way to get started is to quit talking and begin doing."
-      </span>
-      <span className="font-bold mx-auto lg:mx-0 font-[Montserrat]">
-        - Walt Disney
-      </span>
- 
+    
+      
       <button
-        className="btn mx-auto lg:mx-0 py-4 mt-5 w-11/12 max-w-[500px] transition-[.4s]"
-      >
-        Winners have been announced 
-      </button>
-      {/* <button
         className="btn mx-auto lg:mx-0 py-4 mt-5 w-60 transition-[.4s]"
-        onClick={() => window.open("https://drive.google.com/file/d/1wKUq7WTfYxyaxBCEKN3wf0ZNTOG1HDWD/view?usp=sharing")}
+        onClick={() => window.open("https://forms.gle/WjMPSZLyNXDvHRDF8")}
       >
-        Themes
-      </button> */}
-     
+        Submit Now
+      </button>
     </div>
     <div className="lg:w-[45%] sm:w-full sm:mt-20 lg:m-0">
       <img
         className="m-auto w-[85%] max-w-lg"
         src={Computer}
-        alt="a computer"
+        alt="acicts"
       />
     </div>
   </div>
 );
 
 export default About;
- 
