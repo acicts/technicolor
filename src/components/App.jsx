@@ -10,7 +10,7 @@ const App = () => (
       <About />
       <Categories />
       <Contact />
-      <footer className="text-center mt-20 text-xl">ACICTS©2022</footer>
+      <footer className="text-center mt-20 text-xl">ACICTS © 2025</footer>
     </main>
   </div>
 );
