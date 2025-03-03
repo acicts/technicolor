@@ -63,7 +63,7 @@ const Categories = () => (
         <div class="guidelines-section">
             <h2>Video Editing </h2>
             <ul>
-                <li>- <strong>Task:</strong> Create a trailer for "Pulz '25."</li>
+                <li>- <strong>Task:</strong> Create a trailer for "Technicolor '24."</li>
                 <li>- Output format: .mp4.</li>
                 <li>- Software: Adobe After Effects or Adobe Premier Pro only.</li>
                 <li>- Resolution: Must be greater than HD (1280x720).</li>
