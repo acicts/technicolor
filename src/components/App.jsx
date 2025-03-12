@@ -1,6 +1,7 @@
 import About from "./About";
 import Categories from "./Categories";
 import NavBar from "./NavBar";
+import Winner from "./Winners";
 import Contact from "./OC";
 
 const App = () => (
@@ -8,7 +9,8 @@ const App = () => (
     <NavBar />
     <main className="border-4 border-black border-t-0 px-5 lg:px-20 pb-5">
       <About />
-      <Categories />
+      <Winner/>
+      <Categories/>
       <Contact />
       <footer className="text-center mt-20 text-xl">ACICTS © 2025</footer>
     </main>
